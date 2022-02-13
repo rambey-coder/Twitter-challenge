@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+        <div class="left-container">
+
+            <div class="header-container">
+                <div class="logo">
+                    <div class="circle"><i class="fa-solid fa-coins"></i></div>
+                    <h5>AceCoin<em>Pay</em></h5>
+                </div>
+    
+                <div class="time-container">
+                    <div class="card"><i class="letter">0</i></div>
+                    <div class="card"><i class="letter">2</i></div> :
+                    <div class="card"><i class="letter">1</i></div>
+                    <div class="card"><i class="letter">9</i></div>
+                </div>
+            </div>
+
+            <div class="form">
+                <form action="">
+
+                    <div class="form-head">
+                        <div class="card-text">
+                            <label for="name">Card Number</label>
+                            <p>Enter the 16-digit card number on the card</p>
+                        </div>
+
+                        <div class="icon-content">
+                            <i class="fa-solid fa-pencil"></i>
+                            <p>Edit</p>
+                        </div>
+                    </div>
+
+                    <img src="/mastercard.png" alt="" class="master-card">
+
+                    <input type="text" placeholder="2412 - 7512 - 3412 - 3456" class="card-number">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="mark" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                      </svg>
+
+                      <div class="other-form">
+                          <div class="flex">
+
+                              <div class="head">
+                                <label for="name">Card Number</label>
+                                <p>Enter the 16-digit card number on the card</p>
+                              </div>
+
+                              <div class="input-area">
+                                  <input type="text" class="cvv-number">
+
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="grid" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                                  </svg>
+
+                              </div>
+                          </div>
+
+                          <div class="flex">
+
+                            <div class="head">
+                              <label for="name">Expiry Date</label>
+                              <p>Enter the expiration of the card</p>
+                            </div>
+
+                            <div class="input-area">
+
+                                <input type="text" class="expiry"> 
+                                <em>/</em>
+                                <input type="text" class="expiry">
+                                
+                            </div>
+                        </div>
+
+                        <div class="flex">
+
+                            <div class="head">
+                              <label for="name">Password</label>
+                              <p>Enter your Dynamic password</p>
+                            </div>
+
+                            <div class="input-area">
+                                <input type="password" class="cvv-number">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" class="grid" viewBox="0 0 20 20" fill="currentColor">
+                                  <path d="M5 3a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2V5a2 2 0 00-2-2H5zM5 11a2 2 0 00-2 2v2a2 2 0 002 2h2a2 2 0 002-2v-2a2 2 0 00-2-2H5zM11 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zM11 13a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                                </svg>
+                                
+                            </div>
+                        </div>
+
+                        <button>
+                            Pay Now
+                        </button>
+
+                      </div>
+                </form>
+            </div>
+        </div>
+        <div class="right-container">
+
+            <div class="border"></div>
+
+            <div class="mastercard">
+
+                <div class="chips-card">
+                    <img src="/chips.png" alt="" class="smart-chip">
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="wifi" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd" />
+                      </svg>
+                </div>
+
+                <div class="card-details">
+                    <p>Jonathan Micheal</p> 
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <p>3456</p>
+                </div>
+
+                <div class="date-details">
+                    <p>09/22</p>
+                    <img src="/cardmaster.png" alt="" class="card-master">
+                </div>
+            </div>
+
+            <div class="details">
+
+                <div class="apple">
+                    <p class="text">Company</p>
+                    <p class="value">Apple</p>
+                </div>
+
+                <div class="apple">
+                    <p class="text">Order Number</p>
+                    <p class="value">23456789</p>
+                </div>
+
+                <div class="apple">
+                    <p class="text">Product</p>
+                    <p class="value">MacBook Air</p>
+                </div>
+
+                <div class="apple">
+                    <p class="text">VAT (20%)</p>
+                    <p class="value">$100.00</p>
+                </div>
+
+                <div class="radius"></div>
+
+                <div class="bottom-details">
+
+                        <p class="text">You have to Pay</p>
+                        <p class="val">594.<small>99</small></p>
+                        <p class="usd">USD</p>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="checked" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                      </svg>
+
+
+                </div>
+
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</body>
+</html>

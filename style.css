@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgba(63, 63, 248, 0.281); */
+    background: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.container {
+    width: 81%;
+    margin: auto;
+}
+
+.inner-container {
+    width: 97%;
+    margin: auto;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between;
+    width: 50%; */
+}
+
+.circle {
+    background-color: rgb(63, 63, 248);
+    text-align: center;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.fa-solid {
+    margin-top: 9px;
+    font-size: 13px;
+}
+
+div.logo > h5 {
+    margin-left: 8px;
+    color: rgb(14, 14, 14);
+    font-weight: bolder;
+}
+
+ h5 em {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.time-container {
+    font-weight: 500;
+}
+
+.card {
+    width: 17px;
+    height: 24px;
+    text-align: center;
+    background-color: rgb(4, 4, 29);
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.letter {
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+}
+
+.form {
+    position: relative;
+}
+
+.form-head {
+    margin-top: 17px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    color: rgb(14, 14, 14);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+}
+
+.card-text > p, .head > p {
+    font-size: 10px;
+    color: rgb(182, 182, 182);
+}
+
+.icon-content {
+    cursor: pointer;
+}
+
+.fa-pencil {
+    color: rgb(63, 63, 248);
+    font-size: 10px;
+}
+
+.icon-content > p {
+    display: inline;
+    font-size: 10px;
+    color: rgb(63, 63, 248);
+    
+}
+
+.card-number {
+    width: 100%;
+    padding: 10px 50px;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    outline: 0;
+    border: 1px solid rgb(177, 173, 173);
+    border-radius: 4px;
+    background-color: rgb(245 245 245 / 78%);
+}
+
+.card-number:focus, .cvv-number:focus, .expiry:focus {
+    border: 1px solid rgb(71, 71, 255);
+    transition: all 0.5s ease-in-out;
+}
+
+::placeholder {
+    color: rgb(177, 173, 173);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.master-card {
+    width: 30px;
+    position: absolute;
+    left: 12px;
+    top: 60px;
+}
+
+.mark {
+    width: 18px;
+    color: rgb(71, 71, 255);
+    position: absolute;
+    top: 66px;
+    right: 10px;
+}
+
+.other-form {
+    margin-top: 20px;
+}
+
+.head {
+    width: 50%;
+}
+
+.input-area {
+    width: 50%;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cvv-number {
+    width: 100%;
+    padding: 10px 50px;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    outline: 0;
+    border: 1px solid rgb(177, 173, 173);
+    border-radius: 4px;
+    background-color: rgb(245 245 245 / 78%);
+}
+
+.grid {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: rgb(134, 134, 134);
+}
+
+.expiry {
+    width: 43%;
+    padding: 10px 50px;
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    outline: 0;
+    border: 1px solid rgb(177, 173, 173);
+    border-radius: 4px;
+    background-color: rgb(245 245 245 / 78%);
+}
+
+div:nth-child(2) > div.input-area > em {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(63, 63, 248);
+    color: #fff;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 10px rgba(63, 63, 248, 0.466);
+}
+
+button:hover {
+    background-color: rgb(40, 40, 211);
+    transition: all 0.4s ease-in-out;
+}
+
+/*  */
+
+.right-container {
+    width: 35%;
+    position: relative;
+}
+
+.mastercard {
+    background-color: #fff;
+    width: 230px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.border {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 70px;
+    margin: auto;
+    border-radius: 50px;
+    height: 5px;
+    background-color: rgb(63, 63, 248);
+    box-shadow: 2px 2px 10px rgba(63, 63, 248, 0.651);
+}
+
+.chips-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smart-chip {
+    width: 30px;
+}
+
+.wifi {
+    width: 26px;
+    color: rgb(14, 14, 14);
+}
+
+.card-details {
+    margin-top: 80px;
+}
+
+.card-details > p:nth-child(1) {
+    font-size: 13px;
+    color: rgb(14, 14, 14);
+    font-weight: 400;
+}
+
+div.card-details > p:nth-child(3), div.date-details > p {
+    font-size: 13px;
+    color: rgb(14, 14, 14);
+    font-weight: 700;
+    display: inline;
+}
+
+.fa-ellipsis {
+    color: rgb(14, 14, 14);
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.date-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.card-master {
+    width: 30px;
+}
+
+.details {
+    background-color: rgb(209 209 209);
+    padding: 20px;
+    /* border-radius: 10px; */
+    width: 290px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 87px;
+    z-index: -1;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+body > div > div > div.right-container > div.details > div:nth-child(1) {
+    margin-top: 9em;
+}
+
+.apple {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.value {
+    color: rgb(14, 14, 14);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.radius {
+    width: 260px;
+    margin: auto;
+    height: 30px;
+    background-color: rgb(209 209 209);
+    /* background-color: rebeccapurple; */
+    position: inherit;
+    left: 0;
+    right: inherit;
+    top: 240px;
+    z-index: 1;
+    /* border-radius: 50px; */
+}
+
+.bottom-details {
+    background-color: rgb(209 209 209);
+    width: 290px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 262px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.val {
+    font-size: 13px;
+    font-weight: 800;
+    color: rgb(14, 14, 14);
+    display: inline;
+    margin-top: 8px;
+}
+
+.text {
+    font-size: 12px;
+    color: rgb(134, 134, 134)
+}
+
+.usd {
+    color: rgb(134, 134, 134);
+    font-size: 11px;
+    display: inline;
+}
+
+.checked {
+    width: 20px;
+    float: right;
+    color: rgba(22, 22, 22, 0.836);
+}
+
+@media (max-width: 1169px) {
+    .expiry {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1068px) {
+    .expiry {
+        width: 20%;
+    }
+}
